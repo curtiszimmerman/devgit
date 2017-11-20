@@ -1,0 +1,5 @@
+PasswordAuthentication no
+PubkeyAuthentication yes
+AuthorizedKeysFile	/home/git/.ssh/authorized_keys
+AllowUsers git
+Subsystem	sftp	/usr/lib/ssh/sftp-server
